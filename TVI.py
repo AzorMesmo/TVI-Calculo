@@ -37,7 +37,7 @@ while selection == 0:
         if x == y:  # VERIFY IF THE POINTS ARE EQUAL
             print("\033[1;31m\nThe values must be different, please type new values!")
         elif not opposite_signs(x, y):  # VERIFY IF THE POINTS RECEIVED HAVE OPPOSITE SIGNS
-            print("\033[1;31m\nThis interval don't have valid points, please type new values!")
+            print("\033[1;31m\nIs impossible to determine if this interval have real roots, please type new values.")
         else:
             break
 
